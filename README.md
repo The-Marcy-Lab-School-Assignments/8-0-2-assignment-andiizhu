@@ -1,6 +1,6 @@
 # 8-0-2-assignment
 
-DEPLOYED LINK: [add your link here](addyourlinkhere)
+DEPLOYED LINK: [https://eight-0-2-assignment-andiizhu.onrender.com/](https://eight-0-2-assignment-andiizhu.onrender.com/)
 
 In this assignment, you will use Express as a Middleman for API requests. Refer to the [lecture notes](https://github.com/The-Marcy-Lab-School/8-0-2-express-api-middleman) for support.
 
@@ -48,9 +48,9 @@ Before continuing, make sure that these tasks are completed!
 - [x] The `app` listens on an available port (I recommend `8080`)
 - [x] A `/api/gifs` endpoint exists.
 - [x] The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
-- [ ] The frontend `vite.config.js` file has been updated to enable proxy requests
-- [ ] The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
-- [ ] Bonus: The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
+- [x] The frontend `vite.config.js` file has been updated to enable proxy requests
+- [x] The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
+- [x] Bonus: The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
 
 **Deployment Technical Requirements**
 
