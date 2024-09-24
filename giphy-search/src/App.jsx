@@ -3,9 +3,8 @@ import GifContainer from './components/GifContainer'
 import GifSearch from './components/GifSearch'
 import { handleFetch } from './utils';
 import { useState, useEffect } from 'react';
-import { API_KEY } from './config';
 
-const URL = `https://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}&limit=25&offset=0&rating=g&bundle=messaging_non_clips`
+const URL = `/api/gifs` // deleted the import API Key from this file and set UPI equal to the endpoint where the fetch will happen on the backend. // Fetch now sends request to /api/gifs which the server sends the response to. 
 
 function App() {
   const [gifs, setGifs] = useState([]);
